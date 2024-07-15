@@ -15,10 +15,10 @@
         </div>
     <div class="form-side">
         <div class="top right">
-            <div class="top-content-1">This is not a real online service! You know you need something like this in your deepest dreams. Sign up <em>now</em> to get started.</div>
-            <div class="top-content-2">You <em>know</em> you want to.</div>
+            <div class="top-content">This is not a real online service! You know you need something like this in your deepest dreams. Sign up <em>now</em> to get started.</div>
+            <div class="top-content">You <em>know</em> you want to.</div>
         </div>
-        <form action="" method="get">
+        <form action="" method="get" id="form">
             <legend>Let's  do this!</legend>
             <div class="row">
                 <div class="item">
@@ -50,8 +50,9 @@
                     <input type="password" name="pwd2" id="pwd2" required>
                 </div>
             </div>
-            <button type="submit">Create Account</button>
         </form>
+        <button class="right" type="submit" form="form">Create Account</button>
+        <div class="log-in right">Already have an account? <a href="http://google.com">Log in</a></div>
     </div>
 </body>
 </html>
