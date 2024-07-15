@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Now!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pic-side"></div>
+        <img src="leaf.avif" alt="green leaf plant in close up photography">
+        <div class="banner">
+            <img class="odin-pic" src="odin-lined.png" alt="odin symbol">
+            <span>ODIN</span>
+        </div>
+    <div class="form-side">
+        <div class="top right">
+            <div class="top-content-1">This is not a real online service! You know you need something like this in your deepest dreams. Sign up <em>now</em> to get started.</div>
+            <div class="top-content-2">You <em>know</em> you want to.</div>
+        </div>
+        <form action="" method="get">
+            <legend>Let's  do this!</legend>
+            <div class="row">
+                <div class="item">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="item">
+                    <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="item">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd" required>
+                </div>
+                <div class="item">
+                    <label for="pwd2">Confirm Password</label>
+                    <input type="password" name="pwd2" id="pwd2" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>

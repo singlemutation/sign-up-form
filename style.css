@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+img {
+    width: 35%;
+    height: 100vh;
+}
+
+.form-side {
+    width: 65%;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+}
+
+.form-side .right {
+    width: 100%;
+    height: 100%;
+}
+
+.top div,
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(89, 89, 89);
+}
+
+.top-content-1 {
+    margin-top: 90px;
+    padding: 0rem 2rem;
+    max-width: 700px;
+}
+
+.top-content-2 {
+    margin-top: 1.5rem;
+    padding: 0rem 2rem;
+}
+
+.row input {
+    margin-right: 4rem;
+}
+
+.row {
+    display: flex;
+    margin: 1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+    color:gray;
+}
+
+button {
+    position: absolute;
+    bottom: -70px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0px 3px 5px 0px #ADADAD;
+}
+
+ input:invalid {
+    border: 1px solid red;
+ }
+
+button {
+    font-weight: bold;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: 0px 3px 5px 0px #ADADAD;
+}
+
+form {
+    position: absolute;
+    top: 33%;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    box-shadow: 0px 3px 5px 0px #ADADAD;
+    box-sizing: border-box;
+}
+
+.pic-side {
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    max-height: 200px;
+    display: flex;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.451);
+    justify-content: center;
+    align-items: center;
+    top: 11.25%;
+}
+
+.odin-pic {
+    height: 100px;
+    width: auto;
+}
+
+span {
+    color: white;
+    font-family: "norsebold";
+    font-size: 100px;
+}
